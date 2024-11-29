@@ -1,16 +1,19 @@
-# visibleapp
+# مثال على استخدام Widget الـ Visibility في فلاتر
 
-A new Flutter project.
+## مقدمة
 
-## Getting Started
+المشروع ده بيشرح إزاي تستخدم الـ `Visibility` widget في فلاتر. الـ `Visibility` widget بيسمح لك تتحكم في ظهور الويجيتس في واجهة المستخدم من غير ما تأثر على الـ layout بتاع الصفحة. يعني تقدر تخفي عنصر من الواجهة من غير ما يختفي من المكان اللي كان موجود فيه.
 
-This project is a starting point for a Flutter application.
+في التطبيق ده، فيه زرار بيغير حالة الظهور لويجيت أزرق. لو ضغطت عليه، الويجيت هيختفي، ولو ضغطت عليه تاني هيظهر تاني.
 
-A few resources to get you started if this is your first Flutter project:
+## المميزات
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- بيشرح استخدام الـ `Visibility` widget.
+- التحكم في إظهار أو إخفاء الويجيت باستخدام زرار.
+- تحسين الأداء لأن الويجيت مش بيتم بنائه من جديد.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## إزاي تشغل التطبيق
+
+1. أول حاجة، لو مش عامل clone للمشروع ده، اعمل كده:
+   ```bash
+   git clone https://github.com/your-username/flutter-visibility-widget-example.git
