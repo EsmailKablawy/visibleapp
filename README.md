@@ -1,6 +1,3 @@
-# مثال على استخدام Widget الـ Visibility في فلاتر
-
-## مقدمة
 
 المشروع ده بيشرح إزاي تستخدم الـ `Visibility` widget في فلاتر. الـ `Visibility` widget بيسمح لك تتحكم في ظهور الويجيتس في واجهة المستخدم من غير ما تأثر على الـ layout بتاع الصفحة. يعني تقدر تخفي عنصر من الواجهة من غير ما يختفي من المكان اللي كان موجود فيه.
 
@@ -16,4 +13,4 @@
 
 1. أول حاجة، لو مش عامل clone للمشروع ده، اعمل كده:
    ```bash
-   git clone https://github.com/your-username/flutter-visibility-widget-example.git
+   git clone [https://github.com/your-username/flutter-visibility-widget-example.git](https://github.com/EsmailKablawy/visibleapp.git)
